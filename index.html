@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad del Taller</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="titulo-principal"><strong>¡Hola!</strong></h1>
+        <nav>
+            <ul>
+                <li><a href="#acerca-de-mi">Sobre mí</a></li>
+                <li><a href="#idiomas-seccion">Idiomas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="acerca-de-mi" class="info-section">
+            <h2>Sobre mí</h2>
+            <p>Me llamo Valentina Vázquez</p>
+            <p>Tengo 21 años y vivo en Colonia Del Sacramento, Uruguay</p> 
+            <p>Soy barista, estudié en el <a href="https://www.ithu.edu.uy/cursos-cortos/curso-de-barista.html" target="_blank">Instituto Turístico Hotelero del Uruguay</a></p>
+            <p>pero actualmente, me encuentro estudiando programación en <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jóvenes a Programar</a> ya que me gustaría dedicarme a eso en el futuro</p>
+            <img src="img/Jap.png" alt="Imagen de JAP">
+        </section>
+        
+        <section id="idiomas-seccion" class="info-section">
+            <h2>Idiomas</h2>
+            <p>Español</p>
+            <p>Inglés (B2): estudiando actualmente en el Anglo de Colonia del Sacramento</p>
+        </section>
+        
+        <section id="contacto" class="contact-section">
+            <div class="contact-info">
+                <h2>Información de contacto</h2>
+                <p>Correo electrónico: Valentinavazquezcarro@gmail.com</p>
+                <p>Teléfono: 099938169</p>
+                <a href="https://www.google.com/intl/es/gmail/about/">
+                    <img src="img/contacto.jfif" alt="Imagen de contacto mail">
+                </a>
+            </div>
+
+            <div class="contact-form">
+                <h3>Formulario de contacto</h3>
+                <form id="contact-form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email">
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+
+
